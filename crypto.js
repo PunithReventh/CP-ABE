@@ -286,5 +286,3 @@ const CryptoJS =  function (h, s) {
     s.SHA256 = g._createHelper(f);
     s.HmacSHA256 = g._createHmacHelper(f)
 })(Math);
-
-export default CryptoJS
